@@ -30,6 +30,8 @@ This guide walks you through the steps to configure Git on a new machine and aut
 ```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your.email@example.com"
+git config --global user.password "copy paste the token from Step 1"
+
 ```
 
 > Omit `--global` if you want to configure per repository.
@@ -55,16 +57,6 @@ When prompted:
 ## 💾 Step 4: Save Credentials (Optional)
 
 To avoid entering the PAT every time, configure Git’s credential helper.
-
-### macOS:
-```bash
-git config --global credential.helper osxkeychain
-```
-
-### Windows:
-```bash
-git config --global credential.helper manager-core
-```
 
 ### Linux (⚠️ stores in plain text):
 ```bash
