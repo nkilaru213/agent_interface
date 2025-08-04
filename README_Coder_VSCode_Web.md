@@ -35,6 +35,17 @@ This guide explains how to open your cloned Git repository in **VS Code Web IDE*
 
 ---
 
+## 💻 Open the Integrated Terminal in VS Code Web
+
+To access the terminal directly within the VS Code Web IDE:
+
+- Use shortcut: **`Ctrl + ~`** (Control key + Tilde key)
+- Or: Go to **Terminal > New Terminal** in the top menu
+
+This opens a terminal pane at the bottom of the editor, where you can run `git`, `npm`, `python`, or any other CLI commands.
+
+---
+
 ## 💾 Git User Configuration (if not already set)
 
 ```bash
@@ -47,7 +58,7 @@ git config --global user.email "your.email@example.com"
 ## 🔄 Making Git Changes in VS Code Web
 
 1. Modify files using the editor
-2. Use the Source Control panel on the left sidebar:
+2. Open the Source Control panel from the left sidebar:
    - Stage changes
    - Write commit messages
    - Push or pull changes
